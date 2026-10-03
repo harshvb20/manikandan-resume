@@ -8,9 +8,10 @@ This repository contains **Manikandan Madhu’s résumé and Paint / Prep Showre
 - Showreel: **https://harshvb20.github.io/manikandan-resume/showreel/**
 - Direct MP4: https://harshvb20.github.io/manikandan-resume/showreel/showreel.mp4
 - Repository: https://github.com/harshvb20/manikandan-resume
-- QR code: [PNG](https://harshvb20.github.io/manikandan-resume/resume-qr.png) · [SVG](https://harshvb20.github.io/manikandan-resume/resume-qr.svg)
+- Résumé QR code: [PNG](https://harshvb20.github.io/manikandan-resume/resume-qr.png) · [SVG](https://harshvb20.github.io/manikandan-resume/resume-qr.svg)
+- Showreel QR code: [PNG](https://harshvb20.github.io/manikandan-resume/showreel/showreel-qr.png) · [SVG](https://harshvb20.github.io/manikandan-resume/showreel/showreel-qr.svg)
 
-The QR code points to the permanent résumé link, which automatically opens `resume.pdf`.
+The résumé QR code points to the permanent résumé link, which automatically opens `resume.pdf`. The showreel QR code opens the showreel viewing page.
 
 ## Add the showreel to the résumé
 
@@ -19,6 +20,8 @@ Add a hyperlink labelled **Watch Paint / Prep Showreel** with this destination:
 https://harshvb20.github.io/manikandan-resume/showreel/
 
 The viewing page has a mobile-friendly video player, a download link, and the music attribution. Export the edited résumé as a PDF with hyperlinks enabled, then replace `resume.pdf` as described below.
+
+Add the showreel QR image to the résumé with the label **Scan to watch showreel**. Use the PNG for easy insertion or the SVG for vector-quality printing.
 
 ## Update Manikandan’s résumé
 
@@ -32,7 +35,7 @@ Keep the GitHub username, repository name (`manikandan-resume`), and `resume.pdf
 
 ## Update the showreel
 
-Replace `showreel/showreel.mp4` with the updated MP4 and commit the change. Replace `showreel/cover.jpg` if the cover changes, and update the music credit if needed. Keeping the viewing-page URL the same preserves the link in the résumé.
+Replace `showreel/showreel.mp4` with the updated MP4 and commit the change. Replace `showreel/cover.jpg` if the cover changes, and update the music credit if needed. Keeping the viewing-page URL the same preserves both the link in the résumé and the showreel QR code.
 
 ## Site files
 
@@ -43,6 +46,8 @@ Replace `showreel/showreel.mp4` with the updated MP4 and commit the change. Repl
 - `showreel/index.html` — the showreel viewing page.
 - `showreel/showreel.mp4` — the uploaded share-quality showreel.
 - `showreel/cover.jpg` — the video cover image.
+- `showreel/showreel-qr.png` — the showreel QR image for the résumé and sharing.
+- `showreel/showreel-qr.svg` — the showreel QR image for vector-quality printing.
 - `.nojekyll` — enables direct static-file hosting.
 
 GitHub Pages publishes from **main / (root)**.
